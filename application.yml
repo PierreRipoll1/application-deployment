@@ -10,7 +10,7 @@ spec:
     path: deployment
   destination:
     server: https://kubernetes.default.svc
-    namespace: user-<your_sspcloud_username>
+    namespace: user-PierreRipoll1
   syncPolicy:
     automated:
       selfHeal: true
